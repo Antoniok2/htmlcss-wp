@@ -4,6 +4,11 @@
     box-sizing: border-box;
 }
 
+body{
+    color: grey;
+    font-family: 'Montserrat', sans-serif;
+}
+
 
     /* qui trovo regole generali */
 #container {
@@ -31,6 +36,7 @@ header img{
 a{
     text-decoration: none;
 }
+
 
 
 
@@ -116,10 +122,16 @@ a{
     width: 550px;
 }
 
+
+
+
+
+
     /* qui trovo parte finale */
  .endpage{
      height: 50px;
      margin-top: 10px;
+     text-align: center;
      /* regole debug */
-     background-color: purple;
+     /* background-color: purple; */
  }
