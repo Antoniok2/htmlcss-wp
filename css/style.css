@@ -4,19 +4,35 @@
     box-sizing: border-box;
 }
 
+
     /* qui trovo regole generali */
 #container {
     width: 80%;
     margin: 0 auto;
 }
 
+
 /* qui trovo l'intestazione */
 header{
-    height: 150px;
+    height: 100px;
     margin-bottom: 10px;
             /* regole debug */
-    background-color: palevioletred;
+    /* background-color: palevioletred; */
 }
+header img{
+    height: 50px;
+}
+#navbar li{
+    list-style-type: none;
+    display: inline-block;
+    margin-right: 20px;
+    margin-top: 10px;
+}
+a{
+    text-decoration: none;
+}
+
+
 
     /* qui trovo il primo contenitore */
 .contenitore1{
