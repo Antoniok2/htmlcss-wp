@@ -36,11 +36,17 @@ a{
 
     /* qui trovo il primo contenitore */
 .contenitore1{
-    height: 300px;
+    height: 600px;
     margin-bottom: 10px;
     /* regole debug */
-    background-color: yellow;    
+    /* background-color: yellow;*/
 }
+.contenitore1 img{
+    height: 100%;
+    width: 100%;
+}
+
+
 
     /* qui trovo il secondo contenitore */
 .contenitore2{
