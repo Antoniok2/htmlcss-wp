@@ -38,13 +38,18 @@ a{
 .contenitore1{
     height: 600px;
     margin-bottom: 10px;
+    background-image: url(../img/banner.jpg);
+    color: black; 
+    
     /* regole debug */
-    /* background-color: yellow;*/
+    /* background-color: yellow; */
 }
-.contenitore1 img{
-    height: 100%;
-    width: 100%;
+.testo_contenitore1{
+    padding: 460px 500px 0 70px;
+    color: rgb(136, 135, 135);   
 }
+
+
 
 
 
