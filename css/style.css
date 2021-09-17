@@ -1,0 +1,83 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+    /* qui trovo regole generali */
+#container {
+    width: 80%;
+    margin: 0 auto;
+}
+
+/* qui trovo l'intestazione */
+header{
+    height: 150px;
+    margin-bottom: 10px;
+            /* regole debug */
+    background-color: palevioletred;
+}
+
+    /* qui trovo il primo contenitore */
+.contenitore1{
+    height: 300px;
+    margin-bottom: 10px;
+    /* regole debug */
+    background-color: yellow;    
+}
+
+    /* qui trovo il secondo contenitore */
+.contenitore2{
+    
+    /* regole di debug */
+    background-color: blue;
+    padding-bottom: 2px;
+}
+
+.clearfix::after{
+    content: "";
+    display: table;
+    clear: both;
+}  
+
+.leadership{
+    height: 80px;
+    width: 100%;
+    /* regole debug */
+    background-color: cadetblue;
+}
+.testosx{
+    height: 200px;
+    width: 25%;
+    float: left;
+    margin-top: 10px;
+        /* regole debug */
+    background-color: cadetblue;
+}
+.testodx{
+    height: 200px;
+    width: 25%;
+    float: left;
+    margin-top: 10px;
+    /* regole debug */
+    background-color: cadetblue;
+}
+.testocentrale{
+    height: 200px;
+    width: 48%;
+    float: left;
+    margin-top: 10px;
+    margin-left: 1%;
+    margin-right: 1%;
+    
+     /* regole debug */
+    background-color: cadetblue;
+}
+
+    /* qui trovo parte finale */
+ .endpage{
+     height: 50px;
+     margin-top: 10px;
+     /* regole debug */
+     background-color: purple;
+ }
